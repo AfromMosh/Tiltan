@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            Console.WriteLine("please insert integer number and prees enter -  ");
+            string a = Console.ReadLine();
+            int numberA = int.Parse(a);
+
+            Console.WriteLine("please insert another integer number and prees enter -  ");
+            string b = Console.ReadLine();
+            int numberB = int.Parse(b);
+            int sum = numberA + numberB;
+            Console.WriteLine("numberA is {0} numberB is {1} and sum is {2}", numberA, numberB, sum);
+            Console.Read();
